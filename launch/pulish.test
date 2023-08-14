@@ -1,0 +1,6 @@
+<launch>        
+     <node name="listener_0"
+          pkg="beginner_tutorials" type="listener">          
+     </node>
+     <test test-name="myfirsttest" pkg="beginner_tutorials" type="beginner_tutorials_test" name="testname"/>
+</launch>

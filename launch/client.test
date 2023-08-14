@@ -1,0 +1,13 @@
+<launch>       
+    <arg name="a" default="10"/>
+    <arg name="b" value="20"/>
+     <node name="client_test"
+          pkg="beginner_tutorials" type="add_two_ints_client" args="$(arg a) $(arg b)">       
+     </node>
+     <test test-name="my_client_test_new" pkg="beginner_tutorials" type="client_test_new" name="client_test"/>
+<!-- Can be run by the command roslaunch beginner_tutorials client.test a:="40" -->
+    <node name="client_test1"
+          pkg="beginner_tutorials" type="add_two_ints_client" args="$(arg a) $(arg b)">       
+     </node>
+</launch>
+
