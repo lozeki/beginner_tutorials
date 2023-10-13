@@ -4,6 +4,7 @@ Changelog for package beginner_tutorials
 
 Forthcoming
 -----------
+
 1.0.2 (2023-10-10)
 ------------------
 
